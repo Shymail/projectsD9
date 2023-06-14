@@ -1,6 +1,6 @@
 from django.urls import path
 # Импортируем созданное нами представление
-from .views import ProductsList, NewsList, NewsDetail, NewCreate, NewUpdate, NewDelete, upgrade_me, profile, AppointmentView, subscribe, unsubscribe, CategoryListView
+from .views import NewsList, NewsDetail, NewCreate, NewUpdate, NewDelete, upgrade_me, profile, AppointmentView, subscribe, unsubscribe, CategoryListView
 
 urlpatterns = [
    # path — означает путь.
