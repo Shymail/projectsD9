@@ -70,8 +70,8 @@ APSCHEDULER_RUN_NOW_TIMEOUT = 25
 ADMINS = [
     ('flak', 'gipflak@gmail.com'),
     ('filip-andr', 'filip-andr@yandex.ru'),
-    ('filipp', 'filip-andr@mail.ru')
-
+    ('filip', 'filip-andr@mail.ru')
+]
 SERVER_EMAIL = 'filip-andr@yandex.ru'
 
 # Подключение allauth - модуль регистрации, логирования и логаут
