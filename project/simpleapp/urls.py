@@ -11,7 +11,7 @@ urlpatterns = [
    # Для этого вызываем метод as_view.
 
    # Отображение всех новостей и статей, где 'new_list' это класс во views
-   path('post/', NewsList.as_view(), name='new_list'),
+   path('', NewsList.as_view(), name='new_list'),
    #path('post/<int:pk>', NewsDetail.as_view()),
 
    # просмотр статей и новостей подробно по id(где 'post/<int:pk>' это 'post/1 или 2 или 3 ...')
